@@ -1,3 +1,5 @@
+if(!require(keras)) install.packages("keras")
+if(!require(tensorflow)) install.packages("tensorflow")
 library(keras)
 library(tensorflow)
 
