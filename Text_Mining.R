@@ -1,3 +1,7 @@
+if(!require(tm)) install.packages("tm")
+if(!require(wordcloud)) install.packages("wordcloud")
+if(!require(plyr)) install.packages("plyr")
+if(!require(dplyr)) install.packages("dplyr")
 library(tm)
 library(wordcloud)
 library(plyr)
